@@ -1,0 +1,72 @@
+.exp-card-wrapper {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.2s all ease;
+}
+
+.exp-card-wrapper:hover {
+  background-color: #3b4250;
+  background-color: #e7ebf0;
+}
+
+.exp-card-wrapper .exp-card-header {
+  margin: 0 0 0 5rem;
+}
+
+.exp-card-wrapper .exp-card-header .card-title-years {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.exp-card-wrapper .card-yoe {
+  font-size: larger;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.exp-card-wrapper .exp-card-details ul {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  margin: 0 0 0 10rem;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+  .exp-card-wrapper .exp-card-header {
+    margin: 0 0 0 2rem;
+  }
+  
+  .exp-card-wrapper .exp-card-details ul {
+    margin: 0 0 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .exp-card-wrapper {
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 0 20px #191b20;
+  }
+
+  .exp-card-wrapper .exp-card-header .card-title-years {
+    font-size: smaller;
+    flex-flow: column;
+  }
+
+  .exp-card-wrapper .exp-card-header {
+    margin: 0;
+  }
+
+  .exp-card-wrapper .exp-card-details ul {
+    font-weight: 400;
+    margin: 0 0 0 2rem;
+  }
+}

@@ -1,38 +1,87 @@
+/* body.dark * {
+  color: gainsboro !important;
+} */
+
 .App {
-  text-align: center;
+  color: #282c34;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  max-width: 100%;
+  transition: 0.2s all ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App.dark {
   background-color: #282c34;
-  min-height: 100vh;
+  color: #f5f5f5;
+}
+
+.App main {
+  padding: 1rem;
+  margin-top: 10vh;
+  max-width: 100%;
+}
+
+.app-header {
+  /* background-color: #282c34; */
+  background-color: #f5f5f5 !important;
+  position: fixed;
+  top: 0px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 2rem 0 5rem;
+  height: 10vh;
+  overflow: hidden;
+  min-width: 100%;
+  z-index: 2;
+  /* left: 0;
+  position: sticky;
+  right: 0;
+  top: 0; REMOVE OVERFLOW HIDDEN IN .APP*/
+}
+
+.app-header.dark {
+  background-color: #282c34;
+  color: #f5f5f5;
+}
+
+.app-header > * {
+  height: 10vh;
+}
+
+.app-header .nav-logo-group {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.app-header .nav-logo-group .app-header-nav {
+  display: flex;
+  gap: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-header .nav-logo-group .app-header-nav a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.app-header .nav-logo-group .app-header-nav a:hover {
+  color: #1e64c8;
+}
+
+.app-header .app-header-lang {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-header .app-header-lang .app-header-mode {
+  font-weight: 900;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.app-header .app-header-lang .app-header-mode:hover {
+  color: #1e64c8;
 }

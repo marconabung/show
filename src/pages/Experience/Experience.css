@@ -1,0 +1,11 @@
+.experience {
+  margin: 1rem 0 5rem 5rem;
+  display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+  .experience {
+    margin: 1rem 0 5rem 0;
+    display: flex;
+  }
+}

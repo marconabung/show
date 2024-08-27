@@ -1,0 +1,99 @@
+.proj-cards-wrapper {
+  padding: 0 2rem;
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.proj-cards-wrapper .card {
+  border-radius: 0.5rem;
+  /* box-shadow: 0 0 5px rgb(184, 184, 184); */
+  /* border: 1px solid gainsboro; */
+  padding: 1rem;
+  width: 45%;
+  height: fit-content;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.proj-cards-wrapper .card:hover {
+  /* box-shadow: 0 0 5px rgb(184, 184, 184); */
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  /* background-image: linear-gradient(to left, whitesmoke, #e7ebf0); */
+  background-color: #e7ebf0;
+  /* background-color: #3b4250; */
+  /* background-color: rgb(51, 54, 61); */
+}
+
+.proj-cards-wrapper .card .card-title-wrapper img {
+  width: 100%;
+  border-radius: .5rem;
+}
+
+.proj-cards-wrapper .card .card-title-wrapper .card-title {
+  margin-bottom: 10rem;
+  text-decoration: none;
+  color: #022c68;
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.proj-cards-wrapper .card .date p {
+  display: flex;
+  gap: 0rem;
+  margin: 0.5rem 0;
+}
+
+.proj-cards-wrapper .card .date p span:first-child {
+  font-weight: 500;
+  width: 4rem;
+}
+
+.proj-cards-wrapper .card .card-description {
+  margin: 1rem 0 0 0;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5rem;
+}
+
+.proj-cards-wrapper .card .tags-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.proj-cards-wrapper .card .tags-wrapper .tags-title {
+  font-weight: 700;
+}
+
+.proj-cards-wrapper .card .tags-wrapper ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.proj-cards-wrapper .card .tags-wrapper li {
+  list-style-type: none;
+  padding: 0.3rem .8rem;
+  background-color: #4671ad;
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  /* background-color: rgb(54, 82, 121); */
+}
+
+@media only screen and (max-width: 800px) {
+  .proj-cards-wrapper {
+    padding: 0;
+  }
+
+  .proj-cards-wrapper .card {
+    padding: 1rem;
+    width: 8100%;
+    background-color: #e7ebf0;
+  }
+}

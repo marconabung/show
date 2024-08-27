@@ -1,0 +1,108 @@
+.proj-header-filter {
+  margin: 0 0 0 10rem;
+}
+
+.proj-header-filter .filters-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.proj-header-filter .filters {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  margin: 1rem 0 0 0;
+}
+
+.proj-header-filter .filter-lang p {
+  font-weight: 700;
+}
+
+.proj-header-filter .filter-lang .languages {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  margin: 1rem 0 0 1rem;
+}
+
+.proj-header-filter .filter-lang .languages button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  background: none;
+  font-size: 0.9rem;
+}
+
+.proj-header-filter .filter-lang .languages button:hover {
+  color: #1e64c8;
+}
+
+.proj-header-filter .filter-date p {
+  font-weight: 700;
+}
+
+.proj-header-filter .filter-date .dates {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  margin: 1rem 0 0 1rem;
+}
+
+.proj-header-filter .filter-date .dates button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  background: none;
+  font-size: 0.9rem;
+  transition: 0.2s all ease;
+}
+
+.proj-header-filter .filter-date .dates button:hover {
+  color: #1e64c8;
+}
+
+.proj-header-filter .filter-date .dates button.selected-date {
+  color: #1e64c8;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+  .proj-header-filter {
+    margin: 0 0 1rem 0;
+  }
+
+  .proj-header-filter .filter-date .dates {
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+
+  .proj-header-filter .filter-date .dates button {
+    font-size: 0.9rem;
+    width: fit-content;
+    padding: 0.8rem 1rem;
+    border-radius: 0.2rem;
+    background-color: #e7ebf0;
+  }
+
+  .proj-header-filter .filter-date .dates button.selected-date {
+    background-color: #1e64c8;
+    color: white;
+  }
+
+  .proj-header-filter .filter-lang .languages.mobile {
+    margin: 1rem 0 0 0;
+    width: 95%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    background-color: #e7ebf0;
+  }
+
+  .proj-header-filter .filter-lang .languages.mobile option {
+    background-color: white;
+  }
+}
