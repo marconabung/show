@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b960d325.css",
-    "main.js": "/static/js/main.b3e57a77.js",
-    "static/js/453.bb257cf5.chunk.js": "/static/js/453.bb257cf5.chunk.js",
-    "static/media/home-bg.jpg": "/static/media/home-bg.72106d2a5edd2351e75c.jpg",
-    "static/media/winbet-dark.png": "/static/media/winbet-dark.e8368420f83612b7d9f6.png",
-    "static/media/winbet-light.png": "/static/media/winbet-light.ec72e66e3feebdd7fd87.png",
-    "static/media/22win.png": "/static/media/22win.872323a4b689dfa59d77.png",
-    "static/media/pvbet.png": "/static/media/pvbet.77d7352b394852680c99.png",
-    "static/media/client3.jpeg": "/static/media/client3.f4506df37ca3ec5a671a.jpeg",
-    "static/media/client5.jpg": "/static/media/client5.480ff667e0d42f062023.jpg",
-    "static/media/client4.jpg": "/static/media/client4.843abf1b44dc81c3ef43.jpg",
-    "static/media/client2.jpg": "/static/media/client2.debd864b2ef8cdc95b7d.jpg",
-    "static/media/joe-logo.png": "/static/media/joe-logo.c67d7c8daffbf25285b3.png",
-    "static/media/client1.jpg": "/static/media/client1.dac31db8de485e10c329.jpg",
-    "static/media/client6.jpg": "/static/media/client6.cfd3f8618f317a9d0b77.jpg",
-    "index.html": "/index.html",
-    "main.b960d325.css.map": "/static/css/main.b960d325.css.map",
-    "main.b3e57a77.js.map": "/static/js/main.b3e57a77.js.map",
-    "453.bb257cf5.chunk.js.map": "/static/js/453.bb257cf5.chunk.js.map"
+    "main.css": "/show/static/css/main.ffe056fb.css",
+    "main.js": "/show/static/js/main.2b87578f.js",
+    "static/js/453.bb257cf5.chunk.js": "/show/static/js/453.bb257cf5.chunk.js",
+    "static/media/home-bg.jpg": "/show/static/media/home-bg.72106d2a5edd2351e75c.jpg",
+    "static/media/winbet-dark.png": "/show/static/media/winbet-dark.e8368420f83612b7d9f6.png",
+    "static/media/winbet-light.png": "/show/static/media/winbet-light.ec72e66e3feebdd7fd87.png",
+    "static/media/22win.png": "/show/static/media/22win.872323a4b689dfa59d77.png",
+    "static/media/pvbet.png": "/show/static/media/pvbet.77d7352b394852680c99.png",
+    "static/media/client3.jpeg": "/show/static/media/client3.f4506df37ca3ec5a671a.jpeg",
+    "static/media/client5.jpg": "/show/static/media/client5.480ff667e0d42f062023.jpg",
+    "static/media/client4.jpg": "/show/static/media/client4.843abf1b44dc81c3ef43.jpg",
+    "static/media/client2.jpg": "/show/static/media/client2.debd864b2ef8cdc95b7d.jpg",
+    "static/media/joe-logo.png": "/show/static/media/joe-logo.c67d7c8daffbf25285b3.png",
+    "static/media/client1.jpg": "/show/static/media/client1.dac31db8de485e10c329.jpg",
+    "static/media/client6.jpg": "/show/static/media/client6.cfd3f8618f317a9d0b77.jpg",
+    "index.html": "/show/index.html",
+    "main.ffe056fb.css.map": "/show/static/css/main.ffe056fb.css.map",
+    "main.2b87578f.js.map": "/show/static/js/main.2b87578f.js.map",
+    "453.bb257cf5.chunk.js.map": "/show/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b960d325.css",
-    "static/js/main.b3e57a77.js"
+    "static/css/main.ffe056fb.css",
+    "static/js/main.2b87578f.js"
   ]
 }
