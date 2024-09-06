@@ -39,34 +39,6 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-nav">
-          {/* <div>
-            <p>Projects</p>
-            <ul>
-              <li>Gamble Time</li>
-              <li>Munch Time</li>
-            </ul>
-          </div>
-          <div>
-            <p>Experience</p>
-            <ul>
-              <li>Support</li>
-              <li>Partnership</li>
-            </ul>
-          </div>
-          <div>
-            <p>Pricing</p>
-            <ul>
-              <li>Pricing</li>
-              <li>Partnership</li>
-            </ul>
-          </div>
-          <div>
-            <p>About</p>
-            <ul>
-              <li>Pricing</li>
-              <li>Partnership</li>
-            </ul>
-          </div> */}
           <div className="quick-links">
             <p>Quick Links</p>
             <ul>
